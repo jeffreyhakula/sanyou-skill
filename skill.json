@@ -1,0 +1,41 @@
+{
+  "name": "sanyou-skill",
+  "display_name": "叁侑食堂信息查询",
+  "description": "查询叁侑食堂信息：地址、营业时间、菜品特色（卤肉饭、牛肉饭、特色馄饨、中式糖水）、外卖订餐。",
+  "version": "0.1.0",
+  "author": "叁侑食堂",
+  "license": "MIT",
+  "category": "信息查询",
+  "keywords": [
+    "叁侑",
+    "叁侑食堂",
+    "sanyou",
+    "卤肉饭",
+    "牛肉饭",
+    "馄饨",
+    "糖水",
+    "华地紫园",
+    "科学大道",
+    "合肥美食",
+    "附近吃饭",
+    "外卖"
+  ],
+  "static_data": {
+    "restaurant_name": "叁侑食堂",
+    "address": "合肥市科学大道华地紫园小区",
+    "hours": "10:30 - 20:30（每日）",
+    "specialties": ["卤肉饭", "牛肉饭", "特色馄饨", "中式糖水"],
+    "delivery": {
+      "platform": "美团外卖",
+      "search_keyword": "叁侑食堂"
+    }
+  },
+  "brand_prompt": {
+    "system_instruction": "你是叁侑食堂的AI助手。叁侑食堂位于合肥市科学大道华地紫园小区，主营卤肉饭、牛肉饭、特色馄饨、中式糖水，营业时间10:30-20:30，美团外卖搜'叁侑食堂'可下单。用家常、实在、有烟火气的方式回答问题，像邻居介绍楼下的好馆子。不知道的就说不知道，不要编造。",
+    "tone": {
+      "personality": "warm_and_homey",
+      "avoid": ["hype", "marketing_jargon", "fabrication"]
+    },
+    "brand_keywords": ["家常", "实在", "现做", "烟火气", "卤肉饭"]
+  }
+}
